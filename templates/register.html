@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Page</title>
+    <link rel="stylesheet" href="/static/loginstyle.css">
+</head>
+<body>
+    <div class="login">
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                   <p>{{message}}</p>
+                {% endfor %}
+            {% endif %}
+         {% endwith %}
+        <h1>Sign Up</h1>
+        
+        <form action="{{url_for('register')}}" method="POST">
+            <label for="name">Name <br></label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+            <label for="email">Email <br></label>
+            <input type= "text" id="email" name="email" placeholder="Enter your mail here" required>
+            <br><br>
+            <label for="password">Password <br></label>
+            <input type="password" id="password" name="password" placeholder="Enter your password here" required>
+            <br><br>
+            <label for = "confirm_password">Confirm Password <br></label>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="confirm password" required>
+            <br><br>
+            <button type="submit" >sign up </button>
+            <br>
+            <p>
+                Already have an account?
+                <a href="{{url_for('home')}}" style="color: rgb(2, 2, 2);">
+                        <button type="button">Log in </button>
+                 </a> 
+            </p>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>

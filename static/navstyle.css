@@ -1,0 +1,33 @@
+.nav_bar{
+    display:flex;
+    flex-direction: row;
+    border: 2px solid rgb(243, 225, 202);
+    background:transparent;
+    justify-content: space-between;
+    border-radius: 20px;
+    height: 40px;
+    align-items: center;
+    color: #1a2e1a;
+    backdrop-filter: blur(10px);
+    
+}
+
+
+.nav_list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+.nav_list button{
+    background-color: rgb(230, 38, 38);
+    border-radius: 5px;
+    color: white;
+}
+
+
+.footer{
+    color: aliceblue;
+}
+

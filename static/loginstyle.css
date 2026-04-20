@@ -1,0 +1,56 @@
+body{
+    background-image: url("img.png");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    text-align: center;
+    padding:20px;
+
+}
+
+.login{
+    padding:10x ;
+    background-color: rgba(204, 209, 205, 0.421);
+    border-radius: 10px; 
+    width: 400px;
+    justify-content: center;
+    justify-self: center;
+    backdrop-filter: 10px;
+    border-top:1px rgb(208, 208, 208) solid;
+    border-left:1px rgb(208, 208, 208) solid;
+    margin: 100px auto;
+}
+
+
+.login label{
+    font: italic;
+    font-weight: bold;
+    padding: 12px 
+
+}
+
+.login input{
+    border-radius: 10px;
+    height: 20px;
+    width:250px;
+    padding: 5px ;
+    text-align: center;
+    
+
+}
+
+.login button{
+    padding:8px;
+    margin-left:15px;
+    border-radius:5px;
+    color:white;
+    background-color: black;
+
+ 
+}
+
+
+.login p{
+     color: rgb(170, 255, 0);
+}
+
+

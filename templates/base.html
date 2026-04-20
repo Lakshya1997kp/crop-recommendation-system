@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title%}{% endblock%}</title>
+    <link rel="stylesheet" href="/static/navstyle.css">
+
+    {%block css%}{% endblock%}
+
+</head>
+<body>
+    <nav>
+        <div class="nav_bar">
+        <h2 style="color: azure;">🌾 Crop Recommendation 🌾</h2>
+        <ul class ="nav_list">
+        <li><a href="{{url_for('prediction')}}" style="color: rgb(244, 238, 238);">Prediction</a></li>
+        <li><a href="{{url_for('about')}}" style="color: rgb(248, 246, 246);">About</a></li>
+        <li><a href="{{url_for('profile')}}"style="color: rgb(248, 246, 246) ;">Profile</a></li>
+        <li><a href="{{url_for('logout')}}"> <button type="button" >log-out</button></a></li>
+        
+    </ul>
+    </div>
+    </nav>
+    {%block content %} {% endblock %}
+
+    <footer class="footer">
+        <p>© 2026 My Website</p>
+        <p>Contact: lakshyakumarpandey1729@gmail.com</p>
+    </footer>
+</body>
+</html>
+

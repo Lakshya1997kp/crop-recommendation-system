@@ -1,0 +1,33 @@
+body{
+    background-image: url("background_img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-container {
+  backdrop-filter: blur(5px);
+  background-color: rgba(233, 237, 202, 0.522);
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+  color: #191818;
+  border:whitesmoke 1px solid ;
+  
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h1, h2 {
+  color: #1e1e2f;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
