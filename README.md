@@ -45,13 +45,17 @@ project/
 │
 ├── app.py
 ├── model.pkl
+|── db.py
+|── auth_service.py
+├── user_service.py
+├── model_utils.py
 ├── templates/
 │   ├── login.html
 │   ├── register.html
 │   └── prediction.html
 │
 ├── static/
-│   └── (optional CSS/JS)
+│   └── (CSS and background pictures)
 │
 └── README.md
 ```
