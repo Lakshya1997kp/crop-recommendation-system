@@ -34,5 +34,18 @@ you enter values like soil nutrients → the model predicts the most suitable cr
 - Pickle (for saving/loading the model)
 
 ---
-
+project/
+│
+├── app.py
+├── model.pkl
+├── templates/
+│ ├── login.html
+│ ├── register.html
+│ └── prediction.html
+│
+├── static/
+│ └── (optional CSS/JS)
+│
+└── README.md
 ## 📁 Project structure
+        
