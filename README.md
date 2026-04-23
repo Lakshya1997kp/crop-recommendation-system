@@ -67,7 +67,7 @@ project/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/crop-recommendation-app.git
+git clone https://github.com/Lakshya1997kp/crop-recommendation-app.git
 cd crop-recommendation-app
 ```
 
