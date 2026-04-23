@@ -17,6 +17,16 @@ you enter values like soil nutrients → the model predicts the most suitable cr
 * Displays the **recommended crop on the same page**
 
 ---
+## 📊 Monitoring & Scaling
+
+As part of deployment experimentation, basic observability and scaling concepts were explored:
+
+* Integrated **Prometheus** for collecting application and system metrics
+* Used **Grafana** to visualize metrics through dashboards
+* Configured **Horizontal Pod Autoscaler (HPA)** in Kubernetes to experiment with auto-scaling based on resource usage
+
+This helped in understanding how real-world systems monitor performance and handle varying loads.
+
 
 ## 🛠️ Tech used
 
@@ -173,7 +183,6 @@ It was trained separately and then saved using `pickle`, which is loaded inside 
 * Add better UI (CSS/JS)
 * Add real-time validation using JavaScript
 * Store user prediction history
-* Deploy the app (Docker/Kubernetes)
 * Use SQLAlchemy instead of raw SQL
 
 ---
