@@ -26,6 +26,7 @@ As part of deployment experimentation, basic observability and scaling concepts 
 * Configured **Horizontal Pod Autoscaler (HPA)** in Kubernetes to experiment with auto-scaling based on resource usage
 
 This helped in understanding how real-world systems monitor performance and handle varying loads.
+(currently it is not live)
 
 
 ## 🛠️ Tech used
